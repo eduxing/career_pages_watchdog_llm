@@ -1,0 +1,21 @@
+[project]
+name = "careerpageswatchdog"
+version = "0.1.0"
+description = "System that watches over a list of company domains and alerts when new jobs are created."
+authors = [
+    {name = "Edu Escartí"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=1.76.0,<2.0.0)",
+    "selenium (>=4.31.0,<5.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

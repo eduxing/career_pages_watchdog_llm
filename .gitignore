@@ -1,0 +1,64 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Poetry
+.poetry/
+# If you export requirements.txt from Poetry
+requirements.txt
+
+# Virtual environments (if not in .venv)
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# JupyterLab workspace settings
+.lab/
+.jupyter/lab/workspaces/
+
+# VSCode (if using)
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Data files (optional, depending on your project)
+data/
+*.csv
+*.tsv
+*.h5
+*.parquet
+*.db
+*.sqlite
+*.pkl
+*.joblib
+
+# Secrets (make sure these are not committed!)
+.env.*
+secrets.*
+credentials.*
+
+# Notebook outputs (optional, if you want cleaner diffs)
+# Uncomment if you strip outputs
+# *.ipynb

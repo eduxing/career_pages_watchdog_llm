@@ -67,4 +67,4 @@ The project includes a Jupyter notebook (`notebook.ipynb`) for development and t
 
 ## License
 
-This project is property of Xing and authored by Eduardo Escartí.
+This project is property of Xing and authored by Eduardo Escartí and shall not be copied.
